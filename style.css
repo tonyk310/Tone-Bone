@@ -1,0 +1,127 @@
+#portfolio:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -75px; 
+  height: 75px; 
+  visibility: hidden; 
+}
+
+#home:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -75px; 
+  height: 75px; 
+  visibility: hidden; 
+}
+
+#about:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -75px; 
+  height: 75px; 
+  visibility: hidden; 
+}
+
+
+h5 {
+	font-weight: bold;
+}
+
+h4 {
+	display: inline-block;
+	/*background: pink;*/
+}
+
+h4 span {
+	background: white;
+	padding: 0 20px;
+}
+
+.navbar {
+	background: rgba(52,58,64,0.9 );
+}
+
+.intro-header {
+			background-image: url(./images/laptop.jpeg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			font-family: lato;
+			color: #f3f6f7;
+			padding: 400px 0 400px 0;
+			text-align: center;
+
+}
+
+.main-caption {
+	text-align: center;
+	/*margin: 10px 0;*/
+}
+
+.content-section {
+	padding-top: 80px;
+	text-align: center;
+}
+
+.biography {
+	text-align: left;
+	padding: 0 40px 0 40px;
+}
+
+.sub-caption {
+	text-transform: capitalize;
+	color: #959595;
+	text-align: center;
+}
+
+/*why is this even here?*/
+.overline {
+/*    margin-bottom: 20px;
+    border-top: 1px solid #e3e3e3;
+    padding-top:10px;*/
+
+    border-top: 1px solid #E3E3E3;
+    line-height: 18px;
+    margin: -20px -15px 36px -15px;
+}
+
+#github-logo {
+	padding: 30px;
+}
+
+.app-icon, .app-content {
+	display: inline-block;
+}
+
+.lead {
+	text-align: left;
+}
+
+.tech-section {
+	padding-top: 20px;
+}
+
+.tech-cell {
+	padding: 20px;
+}
+
+
+@media (min-width: 768px) {
+	.tech-icon, .tech-content {
+/*	background-color: pink;
+	border: 1px solid purple;*/
+	text-align: left;
+	}
+}
+
+.list-inline-item {
+	margin: 8px;
+}
+
+.content-portfolio {
+	padding-top: 20px;
+}
+
+footer {
+	margin-top: 40px;
+}
