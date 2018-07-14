@@ -27,6 +27,10 @@ h5 {
 	font-weight: bold;
 }
 
+.outro h5 {
+	font-weight: normal;
+}
+
 h4 {
 	display: inline-block;
 	/*background: pink;*/
@@ -52,6 +56,14 @@ h4 span {
 			text-align: center;
 
 }
+
+.outro {
+	font-family: lato;
+	color: #f3f6f7;
+	/*padding: 400px 0 400px 0;*/
+	text-align: center;
+}
+
 
 .main-caption {
 	text-align: center;
@@ -120,6 +132,10 @@ h4 span {
 
 .content-portfolio {
 	padding-top: 20px;
+}
+
+.port {
+	padding: 10px 0;
 }
 
 footer {
