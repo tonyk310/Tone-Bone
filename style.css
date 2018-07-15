@@ -23,14 +23,6 @@
 }
 
 
-h5 {
-	font-weight: bold;
-}
-
-.outro h5 {
-	font-weight: normal;
-}
-
 h4 {
 	display: inline-block;
 	/*background: pink;*/
@@ -40,6 +32,21 @@ h4 span {
 	background: white;
 	padding: 0 20px;
 }
+
+h5 {
+	font-weight: bold;
+}
+
+
+footer {
+	margin-top: 40px;
+}
+
+.outro h5 {
+	font-weight: normal;
+}
+
+
 
 .navbar {
 	background: rgba(52,58,64,0.9 );
@@ -118,13 +125,6 @@ h4 span {
 }
 
 
-@media (min-width: 768px) {
-	.tech-icon, .tech-content {
-/*	background-color: pink;
-	border: 1px solid purple;*/
-	text-align: left;
-	}
-}
 
 .list-inline-item {
 	margin: 8px;
@@ -138,6 +138,14 @@ h4 span {
 	padding: 10px 0;
 }
 
-footer {
-	margin-top: 40px;
+.fa {
+	padding-right: 6px;
+}
+
+@media (min-width: 768px) {
+	.tech-icon, .tech-content {
+/*	background-color: pink;
+	border: 1px solid purple;*/
+	text-align: left;
+	}
 }
